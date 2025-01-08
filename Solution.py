@@ -1,17 +1,13 @@
-from typing import List
-
 class Solution:
-    def sortArrayByParity(self, nums: List[int]) -> List[int]:
-        even, odd = [], []
-        for num in nums:
-            if num % 2 == 0: even.append(num)
-            else: odd.append(num)
-        even.sort()
-        odd.sort()
-        return [*even, *odd]
+    def titleToNumber(self, columnTitle: str) -> int:
+        result = 0
+        for a in columnTitle:
+            value = ord(a) - 64
+            result = result * 26 + value
+        return result
 
 # Test cases
 if __name__ == "__main__":
     solution = Solution()
-    print(solution.sortArrayByParity([3, 1, 2, 4])) 
-    print(solution.sortArrayByParity([0]))  
+    print(solution.titleToNumber("AAC")) 
+    print(solution.titleToNumber("A"))  
