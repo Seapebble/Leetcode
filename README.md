@@ -5,4 +5,6 @@
 </br>
 <a href="https://github.com/Seapebble/Leetcode/tree/125.Valid_Palindrome">125. Valid Palindrome</a>
 </br>
+<a href="https://github.com/Seapebble/Leetcode/tree/374.Guess_Number_Higher_or_Lower">374 Guess Number Higher or Lower</a>
+</br>
 <a href=""></a>
