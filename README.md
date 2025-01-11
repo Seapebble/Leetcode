@@ -7,4 +7,6 @@
 </br>
 <a href="https://github.com/Seapebble/Leetcode/tree/374.Guess_Number_Higher_or_Lower">374. Guess Number Higher or Lower</a>
 </br>
+<a href="https://github.com/Seapebble/Leetcode/tree/66.Plus_One">66. Plus One</a>
+</br>
 <a href=""></a>
